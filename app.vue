@@ -1,6 +1,8 @@
 <template>
+  <meta name="viewport" content="width=device-width">
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
   </div>
 </template>
